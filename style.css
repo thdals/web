@@ -68,7 +68,7 @@ button {
     outline: none;
 }
 .btns_menu .btn:hover {
-    background-color: white;
+    background-color: #666;
     border: 1px solid #666;
 }
 
