@@ -20,8 +20,9 @@ section{
     max-width: 1200px;
     margin: auto;
 }
+
 h1{
-    margin-bottom: 600px;
+    padding: 50px;
     color: rgb(47, 99, 243);
     font-size: 48px;
 }
@@ -33,7 +34,7 @@ h3{
     text-align: left;
     font-size: 24px;
     font-weight: 300;
-    width: 600px;
+    width: 800px;
 }
 .btns{
     margin-top: -40px;
@@ -45,8 +46,7 @@ h3{
     position: relative;
     max-width: 900px;
     padding: 20px;
-    margin: auto;
-    background-color:aliceblue;
+    margin: auto;;
 }
 .btns_menu{
     display: flex;
@@ -55,7 +55,7 @@ h3{
 .btns_menu .btn {
     font-size: 16px;
     font-weight: 600;
-    color: #193a40;
+    color: white;
     width: 150px;
     height: 40px;
     border-radius: 6px;
@@ -71,3 +71,10 @@ button {
     background-color: white;
     border: 1px solid #666;
 }
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
