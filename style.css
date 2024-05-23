@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-family: "NOto Sans Kr", sans-serif;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+section:nth-child(odd){
+    background-color: skyblue;
+} */ odd는 홀수별로 효과를 줌
+/* section:nth-child(even){
+    background-color: skyblue;
+} */even은 짝수별로 효과를 줌
+.wrapper{
+    padding-top: 88px;
+    max-width: 1200px;
+    margin: auto;
+}
+h1{
+    color: rgb(47, 99, 243);
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.btns{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.btns .container{
+    position: relative;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+    background-color:aliceblue;
+}
+.btns_menu{
+    display: flex;
+    justify-content: center;
+}
+.btns_menu .btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #193a40;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 4px;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.btns_menu .btn:hover {
+    background-color: white;
+    border: 1px solid #666;
+}
