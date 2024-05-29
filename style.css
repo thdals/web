@@ -8,6 +8,7 @@ section{
     width: 100%;
     height: 100vh;
     text-align: center;
+    margin-left: 50px;
 }
 /* section:nth-child(odd){
     background-color: skyblue;
