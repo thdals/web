@@ -139,3 +139,23 @@ button {
     animation-duration: 5.5s;
     animation-delay: 0.5s;
 }
+.star:nth-child(6) {
+    left: 20%;
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+}
+.star:nth-child(7) {
+    left: 40%;
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+}
+.star:nth-child(8) {
+    left: 60%;
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+}
+.star:nth-child(9) {
+    left: 80%;
+    animation-duration: 5.5s;
+    animation-delay: 0.5s;
+}
