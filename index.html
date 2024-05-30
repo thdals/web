@@ -17,7 +17,8 @@
     <div class="btns">
         <div class="container">
             <div class="btns_menu">
-                <button class="btn home">solar system</button>
+                <button class="btn home">home</button>
+                <button class="btn Solar">solar system</button>
                 <button class="btn about">Mercury</button>
                 <button class="btn skills">Venus</button>
                 <button class="btn works">Earth</button>
@@ -25,8 +26,15 @@
             </div>
         </div>
     </div>
-
+    
     <section id="home">
+        <div class="wrapper">
+            <h1>direct</h1>
+            <h2>송민서</h2>
+            <h3>시각디자인과 2학년 A반 </h3>
+        </div>
+    </section>
+    <section id="Solar">
         <div class="wrapper">
             <h1>Solar System</h1>
             <img src="./img/solar-system-11596_640.png" width="1400">
@@ -68,7 +76,11 @@
         </div>
     </section>
     <script>
-        
+
+        const btnSolar = document.querySelector('.Solar')
+        const sectionSolar = document.querySelector('#Solar')
+        btnSolar.addEventListener('click',function() {sectionSolar.scrollIntoView({behavior:"smooth",block:"center"});});
+
         const btnHome = document.querySelector('.home')
         const sectionHome = document.querySelector('#home')
         btnHome.addEventListener('click',function() {sectionHome.scrollIntoView({behavior:"smooth",block:"center"});});
@@ -89,6 +101,14 @@
         const sectionContact = document.querySelector('#contact')
         btnContact.addEventListener('click',function() {sectionContact.scrollIntoView({behavior:"smooth",block:"center"});});
     </script>
+<div class="sky">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <!-- 필요에 따라 별을 더 추가 -->
+</div>
 
 </body>
 </html>
