@@ -159,3 +159,14 @@ button {
     animation-duration: 5.5s;
     animation-delay: 0.5s;
 }
+
+.star::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(to right, white, transparent);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
